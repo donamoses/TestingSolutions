@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "testing-solutions-client-side-solution",
+    "id": "e17de142-7e0b-4bcd-b81a-7bc51196873e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TestingSolutions description"
+      },
+      "longDescription": {
+        "default": "TestingSolutions description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "testing-solutions Feature",
+        "description": "The feature that activates elements of the testing-solutions solution.",
+        "id": "5e3e5e83-bc45-4ed6-b423-f440aff11292",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/testing-solutions.sppkg"
+  }
+}

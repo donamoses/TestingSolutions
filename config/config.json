@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ui-setup-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uiSetup/UiSetupWebPart.js",
+          "manifest": "./src/webparts/uiSetup/UiSetupWebPart.manifest.json"
+        }
+      ]
+    },
+    "task-history-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/taskHistory/TaskHistoryWebPart.js",
+          "manifest": "./src/webparts/taskHistory/TaskHistoryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UiSetupWebPartStrings": "lib/webparts/uiSetup/loc/{locale}.js",
+    "TaskHistoryWebPartStrings": "lib/webparts/taskHistory/loc/{locale}.js"
+  }
+}
